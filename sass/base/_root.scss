@@ -1,0 +1,23 @@
+:root {
+   --body-background-color: #fff;
+   --body-text-color: #212529;
+
+   --header-background-color: #fff;
+
+   --border-radius-full: 9999px;
+   --border-radius: 0.3125em;
+   --border: 0.25em solid;
+
+   --font-size-large: calc(
+      var(--font-size-medium) + (var(--font-size-medium) * 0.1)
+   );
+   --font-size-medium: clamp(1.125em, 3.125vw, 1.25em);
+   --font-family: 'Rubik', sans-serif;
+
+   --hover-background-color: #cfcfcf35;
+   --focus-background-color: #cfcfcf60;
+
+   --header-background-color: #fff;
+   --header-nav-background-color: #fff;
+   --header-nav-backdrop-background-color: rgba(0, 0, 0, 0.75);
+}

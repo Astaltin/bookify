@@ -1,0 +1,19 @@
+{
+   "name": "bookify",
+   "version": "1.0.0",
+   "description": "My static website for HTML/CSS practice before learning javascript",
+   "scripts": {
+      "build": "npx pug pug --out=public && npx sass sass/style.scss public/style.min.css --style=compressed --no-source-map",
+      "pug-dev": "npx pug pug --out=public --pretty --watch",
+      "sass-dev": "npx sass sass/style.scss public/style.min.css --watch --no-source-map"
+   },
+   "keywords": [],
+   "author": "astaltin",
+   "license": "ISC",
+   "dependencies": {
+      "jquery": "^3.7.1",
+      "pug-cli": "^1.0.0-alpha6",
+      "sass": "^1.74.1",
+      "slick-carousel-jquery-fix": "^1.6.3"
+   }
+}

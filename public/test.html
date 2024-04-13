@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Document</title>
+      <script src="/js/jquery.slim.min.js"></script>
+      <script src="/js/slick.min.js"></script>
+      <script src="/js/script.js"></script>
+      <style>
+         .carousel {
+            max-width: 100px;
+            overflow-x: clip;
+         }
+      </style>
+   </head>
+   <body>
+      <div class="carousel">
+         <img src="/images/bookify-book-320w.png" alt="" />
+         <img src="/images/bookify-book-320w.png" alt="" />
+      </div>
+
+      <script>
+         $('.carousel').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 5000,
+         });
+      </script>
+   </body>
+</html>
